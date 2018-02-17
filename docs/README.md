@@ -13,4 +13,4 @@ Here I will show you how you can automate this process using [Appveyor](https://
 1. Go to the site above.
 2. Choose Hosted - Sign Up for free option.
 
-![Sign Up](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/Sign%20up.png?raw=true)
+![Sign Up](/docs/images/Sign%20up.png?raw=true)
