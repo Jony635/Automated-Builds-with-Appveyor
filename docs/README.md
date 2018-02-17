@@ -15,7 +15,7 @@ Here I will show you how you can automate this process using [Appveyor](https://
 3. Choose free plan, and a way to sign up. (I always prefer registering with my email and password but you can use the other options too).
 4. That is all! Now you can log in with your account credentials.
 
-![Sign Up](https://github.com/Jony635/Automated-Builds-with-Appveyor/docs/images/Sign%20up.png)
+![Sign Up](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/Sign%20up.png?raw=true)
 
 ![Email + Password]()
 
