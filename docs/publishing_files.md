@@ -33,4 +33,5 @@ That is what we are going to learn now. <br> <br>
 ```
 appveyor.yml
 ```
+Appveyor.yml is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process.
 
