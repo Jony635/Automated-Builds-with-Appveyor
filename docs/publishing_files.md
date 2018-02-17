@@ -21,10 +21,10 @@ The most important field is **GitHub authentication token**, we need this in ord
 To obtain one, go to [GitHub](https://github.com/) and click on your account at the top-right of your screen. Go to Settings->Developer_Settings->Personal_Access_Tokens->Generate_new_token. Select the repo checkboxes and generate a token. 
 This is what you have to set in **GitHub authentication token** field.<br> <br> <br>
 
-![Github Settings](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/githubsettings.png?raw=true)<br>
+![Github Settings](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/githubsettings.png?raw=true)<br> <br> <br>
 
-![Token](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/token.png?raw=true)<br>
+![Token](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/token.png?raw=true)<br> <br> <br>
 
-![Token Example](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/tokenexample.png?raw=true)
+![Token Example](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/tokenexample.png?raw=true)<br> <br> <br>
 
 
