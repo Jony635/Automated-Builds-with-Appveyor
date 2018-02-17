@@ -34,3 +34,13 @@ That is what we are going to learn now. <br> <br>
 ### [Appveyor.yml](https://www.appveyor.com/docs/appveyor-yml/) 
 is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. You can become really crazy with this feature, which has a lot of utilities you can made use.
 Here I will show you how to build a zip file from multiple files in different locations of Appveyor server.
+
+In your Appveyorproject->Settings->Environment->CloneDirectory field will be detailed the address where Appveyor will clone and build your project. By default it is c:\projects\nameofyourproject. You can access to that address by %APPVEYOR_BUILD_FOLDER% Appveyor variable. <br>
+
+Below I show you an example of the script I use to create the zip file with my example project:
+```
+after_build:
+- 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\Spike Project\Debug\Spike_FlanStudio.exe"
+- 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\Spike Project\Resources"
+- 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\Spike Project\*.dll"
+```
