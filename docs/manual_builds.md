@@ -10,7 +10,7 @@
 #### 6. Select the right Build worker image. In my case I use Visual Studio 2017.
 #### 7. Now you can compile virtually in Appveyor servers and check if your project has some errors.
 
-![Environment](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/environment.png?raw=true)
+![Environment](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/environmentcircled.png?raw=true)
 
 ---
 
