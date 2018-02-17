@@ -35,7 +35,7 @@ That is what we are going to learn now. <br> <br>
 is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. You can become really crazy with this feature, which has a lot of utilities you can made use.
 Here I will show you how to build a zip file from multiple files in different locations of Appveyor server.
 
-In your Appveyorproject->Settings->Environment->CloneDirectory field will be detailed the address where Appveyor will clone and build your project. By default it is c:\projects\nameofyourproject. You can access to that address by %APPVEYOR_BUILD_FOLDER% Appveyor variable. <br>
+In your Appveyorproject->Settings->Environment->CloneDirectory field will be detailed the address where Appveyor will clone and build your project. By default it is c:\projects\nameofyourproject. You can access to that address by %APPVEYOR_BUILD_FOLDER% Appveyor variable. <br> <br>
 
 Below I show you an example of the script I use to create the zip file with my example project:
 ```
@@ -43,4 +43,14 @@ after_build:
 - 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\Spike Project\Debug\Spike_FlanStudio.exe"
 - 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\Spike Project\Resources"
 - 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\Spike Project\*.dll"
+- 7z a SpikeFromAppveyor.zip "%APPVEYOR_BUILD_FOLDER%\README.md"
 ```
+after_build: It means all the commands written below with - will only execute after the build is completed.
+7z a NameofZipArchive "Address" takes the files of this address (\*.dll means all dll files), which can be an unic file or even a full folder, and creates a zip file with it. If a file with the same name exists, 7z upgrade it adding the new files.
+
+After executing the script above, we will have an SpikeFromAppveyor.zip in %APPVEYOR_BUILD_FOLDER% (the root of the build) with all the .dll, the Resources folder, the executable and the README file. Now we have to declare this zip an *Artifact*, which is the way Appveyor has to declare files as *Deployable*. To do that, use the following syntax:
+```
+artifacts:
+  - path: SpikeFromAppveyor.zip 
+```
+After this step, we have all the neccesary stuff to publish Releases.
