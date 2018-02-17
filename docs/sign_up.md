@@ -1,4 +1,4 @@
-### How to sign up in [Appveyor.com](https://www.appveyor.com/)
+### How to sign up for [Appveyor.com](https://www.appveyor.com/)
 
 1. Go to the site above.
 2. Choose Hosted - Sign Up for free option.
