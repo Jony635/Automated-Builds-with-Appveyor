@@ -17,6 +17,6 @@ Here I will show you how you can automate this process using [Appveyor](https://
 
 ![Sign Up](https://github.com/Jony635/Automated-Builds-with-Appveyor/docs/images/Sign%20up.png)
 
-![Email + Password](https://octodex.github.com/images/yaktocat.png)
+![Email + Password]()
 
 
