@@ -27,4 +27,12 @@ This is what you have to set in **GitHub authentication token** field.<br> <br>
 
 ![Token Example](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/tokenexample.png?raw=true)<br> <br>
 
+Now we can publish files as Releases, but how can we build a Zip with all the necessary files if they are on Appveyor server?
+That is what we are going to learn now.
+
+#### appveyor.yml
+
+```
+Appveyor.yml
+```
 
