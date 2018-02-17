@@ -11,8 +11,8 @@ First of all, Environments. They are the sites where you are going to publish th
 #### 4. Add your environment.
 <br>
 Now your new environment will appear in the environment tag. After clicking on it, you will see 2 tags: Deployments and Settings.
-We will come back to deployment later, this is the way we publish files. But we have to configure the environment first, so click on Settings.
-<br>
+We will come back to deployment later, this is the way we publish files. But we have to configure the environment first, so click on Settings.<br>
+
 ![Environment Settings](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/environmentsettings.png?raw=true)
 
 Same as projects, feel free to explore this tag and configure your settings the way you like more.
