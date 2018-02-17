@@ -11,6 +11,7 @@ First of all, Environments. They are the sites where you are going to publish th
 #### 4. Add your environment.
 
 .
+
 Now your new environment will appear in the environment tag. After clicking on it, you will see 2 tags: Deployments and Settings.
 We will come back to deployment later, this is the way we publish files. But we have to configure the environment first, so click on Settings.
 
