@@ -33,5 +33,5 @@ That is what we are going to learn now. <br> <br>
 ```
 appveyor.yml
 ```
-Appveyor.yml is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process.
-
+Appveyor.yml is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. You can become really crazy with this feature, which has a lot of utilities you can made use.
+Here I will show you how to build a zip file with multiple files in different locations on Appveyor server.
