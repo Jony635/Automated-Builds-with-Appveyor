@@ -32,7 +32,8 @@ That is what we are going to learn now. <br> <br>
 
 
 ### [Appveyor.yml](https://www.appveyor.com/docs/appveyor-yml/) 
-is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. You can become really crazy with this feature, which has a lot of utilities you can made use.
+is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. Obtain it from YourProject=>Settings=>Export YAML, and this will contain all the settings you have established.
+You can become really crazy with this feature, which has a lot of utilities you can made use.
 Here I will show you how to build a zip file from multiple files in different locations of Appveyor server.
 
 In your Appveyorproject->Settings->Environment->CloneDirectory field will be detailed the address where Appveyor will clone and build your project. By default it is c:\projects\nameofyourproject. You can access to that address by %APPVEYOR_BUILD_FOLDER% Appveyor variable. <br> <br>
@@ -54,3 +55,6 @@ artifacts:
   - path: SpikeFromAppveyor.zip 
 ```
 After this step, we have all the neccesary stuff to publish Releases.
+
+### How to publish manually a new Release from last Build
+From Appveyor, go to Environments=>TheEnvironmentYouCreatedBefore. Click on it, select the new deployment option, your desired project and the build you want to publish. After clicking on deploy all artifacts of this build will be published on GitHub as a new Release.
