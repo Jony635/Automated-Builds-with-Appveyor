@@ -30,8 +30,7 @@ This is what you have to set in **GitHub authentication token** field.<br> <br>
 Now we can publish files as Releases, but how can we build a Zip with all the necessary files if they are on Appveyor server?
 That is what we are going to learn now. <br> <br>
 
-```
-appveyor.yml
-```
-Appveyor.yml is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. You can become really crazy with this feature, which has a lot of utilities you can made use.
-Here I will show you how to build a zip file with multiple files in different locations on Appveyor server.
+
+## [Appveyor.yml](https://www.appveyor.com/docs/appveyor-yml/) 
+is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. You can become really crazy with this feature, which has a lot of utilities you can made use.
+Here I will show you how to build a zip file from multiple files in different locations of Appveyor server.
