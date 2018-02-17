@@ -31,6 +31,6 @@ Now we can publish files as Releases, but how can we build a Zip with all the ne
 That is what we are going to learn now. <br> <br>
 
 
-## [Appveyor.yml](https://www.appveyor.com/docs/appveyor-yml/) 
+### [Appveyor.yml](https://www.appveyor.com/docs/appveyor-yml/) 
 is a file that has to be in the root of our repository and contains all instructions Appveyor will do before, during or after the build process. You can become really crazy with this feature, which has a lot of utilities you can made use.
 Here I will show you how to build a zip file from multiple files in different locations of Appveyor server.
