@@ -17,6 +17,6 @@ Here I will show you how you can automate this process using [Appveyor](https://
 
 ![Sign Up](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/Sign%20up.png?raw=true)
 
-![Email + Password]()
+![Email + Password](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/email+password.png?raw=true)
 
 
