@@ -8,16 +8,7 @@ Every Game Developer knows the process of building a Release and uploading it to
 Here I will show you how you can automate this process using [Appveyor](https://www.appveyor.com/), and some useful tools it has.
 
 ---
-### How to sign up in [Appveyor.com](https://www.appveyor.com/)
-
-1. Go to the site above.
-2. Choose Hosted - Sign Up for free option.
-3. Choose free plan, and a way to sign up. (I always prefer registering with my email and password but you can use the other options too).
-4. That is all! Now you can log in with your account credentials.
-
-![Sign Up](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/Sign%20up.png?raw=true)
-
-![Email + Password](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/email+password.png?raw=true)
+## [Sign Up for Appveyor](https://jony635.github.io/Automated-Builds-with-Appveyor/sign_up)
 
 ## [Manual Builds with Appveyor](https://jony635.github.io/Automated-Builds-with-Appveyor/manual_builds)
 
