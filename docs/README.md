@@ -12,17 +12,10 @@ Here I will show you how you can automate this process using [Appveyor](https://
 
 1. Go to the site above.
 2. Choose Hosted - Sign Up for free option.
-
----
+3. Choose free plan, and a way to sign up. (I always prefer registering with my email and password but you can use the other options too).
+4. That is all! Now you can log in with your account credentials.
 
 ![Sign Up](/docs/images/Sign%20up.png?raw=true)
-
----
-
-3. Choose free plan, and a way to sign up. (I always prefer registering with my email and password but you can use the other options too).
-
----
-
 ![Email + Password](/docs/images/email+password.png?raw=true)
 
----
+
