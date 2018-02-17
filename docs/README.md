@@ -12,6 +12,6 @@ Here you can see an index to navigate faster to the step you want. To come back 
 
 ### 1. [Sign Up for Appveyor](https://jony635.github.io/Automated-Builds-with-Appveyor/sign_up)
 ### 2. [Manual Builds with Appveyor](https://jony635.github.io/Automated-Builds-with-Appveyor/manual_builds)
-### 3. [.zip Files + Github Releases](https://jony635.github.io/Automated-Builds-with-Appveyor/publishing_files)
+### 3. [ZIP Files + Github Releases](https://jony635.github.io/Automated-Builds-with-Appveyor/publishing_files)
 
 
