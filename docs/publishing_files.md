@@ -20,3 +20,5 @@ To obtain one, go to [GitHub](https://github.com/) and click on your account at 
 This is what you have to set in **GitHub authentication token** field.
 
 ![Github Settings](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/githubsettings.png?raw=true)
+
+![Token](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/token.png?raw=true)
