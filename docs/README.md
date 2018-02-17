@@ -16,6 +16,7 @@ Here I will show you how you can automate this process using [Appveyor](https://
 4. That is all! Now you can log in with your account credentials.
 
 ![Sign Up](/docs/images/Sign%20up.png?raw=true)
+
 ![Email + Password](/docs/images/email+password.png?raw=true)
 
 
