@@ -6,3 +6,11 @@ This content is generated for the second year’s subject Project 2, under super
 
 Every Game Developer knows the process of building a Release and uploading it to Github Releases, for example, is a tedious task.
 Here I will show you how you can automate this process using [Appveyor](https://www.appveyor.com/), and some useful tools it has.
+
+---
+### How to sign up in [Appveyor.com](https://www.appveyor.com/)
+
+1. Go to the site above.
+2. Choose Hosted - Sign Up for free option.
+
+![Sign Up](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/Sign%20up.png?raw=true)
