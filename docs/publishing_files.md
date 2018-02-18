@@ -59,4 +59,6 @@ artifacts:
 After this step, we have all the neccesary stuff to publish Releases.
 
 ### How to publish manually a new Release from last Build
-From Appveyor, go to Environments=>TheEnvironmentYouCreatedBefore. Click on it, select the new deployment option, your desired project and the build you want to publish. After clicking on deploy all artifacts of this build will be published on GitHub as a new Release.
+From Appveyor, go to Environments=>TheEnvironmentYouCreatedBefore. Click on it, select the new deployment option, your desired project and the build you want to publish. After clicking on deploy all artifacts of this build will be published on GitHub as a new Release. <br>
+
+![Deployment](https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/deployment.png?raw=true)
