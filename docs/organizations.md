@@ -1,4 +1,4 @@
-### Appveyor for GitHub Organizations
+### Appveyor for GitHub Organizations <br>
 
 ***Important: You need to have a Personal Access Token registered in your GitHub Account before following these steps. 
 If you do not have one, go [HERE](https://jony635.github.io/Automated-Builds-with-Appveyor/publishing_files) and come back later***
