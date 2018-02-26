@@ -19,7 +19,7 @@ Here I will show you the first one.
 #####   1. Select Email Notifications.
 #####   2. Recipients: Introduce the email adresses where the notifications will be sent to, separated by commas.
 #####   3. Subject: Choose the subject for the email. For example, failed build {{buildVersion}}
-#####   4. Message: Customize your own message. For example, Build failed commited by {{commitAuthor}}({{commitAuthorEmail}})
+#####   4. Message: Customize your own message. For example, Build failed commited by \{{commitAuthor}}(\{{commitAuthorEmail}})
 #####   5. Events: Select the events you will be notified of. In this example we only want to be notified when a Build Failure happens.
   
 ---
