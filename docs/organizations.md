@@ -9,7 +9,7 @@ You will need to grant aditional permissions from GitHub in order to Appveyor ca
 #### 2. Select **Applications** tag
 #### 3. Select **Authorized OAuth Apps** tag
 
-There you will see two Appveyor applications: Appveyor and Appveyor CI. Click on **Appveyor** and at the bottom of the page you will see all the organizations you are a member of. 
+<br>There you will see two Appveyor applications: Appveyor and Appveyor CI. Click on **Appveyor** and at the bottom of the page you will see all the organizations you are a member of. 
 At the right of each organization you will see one of two options: Grant Access, if you are an owner in this organization, or Request access. In the first case clicking it will grant access immediately, and all repositories in this organization will be able to be added as projects in Appveyor. Otherwise, this organization owners will receive an email asking for permissions. 
 <br> <br>
 
