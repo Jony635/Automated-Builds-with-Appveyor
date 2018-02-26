@@ -10,7 +10,7 @@ Here I will show you the first one.
 ##### 1. Go to YourProject->Settings->Notifications.
 ##### 2. Add a new notification.
 
-You can set a lot of ways to be notified by. I specially like **Email Notifications** and **Slack Notifications** (specially if I'm working in a team on the same project).
+<br>You can set a lot of ways to be notified by. I specially like **Email Notifications** and **Slack Notifications** (specially if I'm working in a team on the same project).
 
  #### Email Notifications
   
