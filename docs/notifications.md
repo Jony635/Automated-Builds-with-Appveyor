@@ -12,7 +12,7 @@ Here I will show you the first one.
 
 <br>You can set a lot of ways to be notified by. I specially like **Email Notifications** and **Slack Notifications** (specially if I'm working in a team on the same project).
 
-  #### Email Notifications <br>
+####   Email Notifications <br>
   
 #####   1. Select Email Notifications.
 #####   2. Recipients: Introduce the email adresses where the notifications will be sent to, separated by commas.
