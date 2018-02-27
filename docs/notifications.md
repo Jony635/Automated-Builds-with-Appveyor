@@ -32,4 +32,6 @@ Here I will show you the first one.
 #####   4. Choose the Slack channel where the notifications will be sent to.
 #####   5. Configure your own message. You can customize it with variables like we did before.
 #####   6. Select your events.
+
+https://github.com/Jony635/Automated-Builds-with-Appveyor/blob/master/docs/images/notificationsexample.png?raw=true
   
